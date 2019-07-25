@@ -1,0 +1,23 @@
+newStockCalenderProducerConfig:
+#  bootstrapServers:  kafka18750:9092,kafka18751:9092,kafka18752:9092
+  bootstrapServers: localhost:9092
+  topic: test
+  acks: all
+  retries: 0
+  batchSize: 16384
+  lingerMs: 1
+  bufferMemory: 33554432
+  keySerializer: org.apache.kafka.common.serialization.StringSerializer
+  valueSerializer: org.apache.kafka.common.serialization.StringSerializer
+
+
+newStockCalenderConsumerConfig:
+#  zookeeper_connect: 10.180.226.235:2181,10.180.226.236:2181,10.180.226.237:2181
+  zookeeper_connect: localhost:2181
+  group_id: test
+  topic: test
+  auto_commit_enable: true
+  auto_commit_interval_ms: 10000000
+  rebalance_max_retries: 4
+  auto_offset_reset: smallest
+  client_num: 1
