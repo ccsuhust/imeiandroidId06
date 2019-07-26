@@ -1,0 +1,76 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="imeiandroidId:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/imeiandroidId_jar</output-path>
+    <root id="archive" name="imeiandroidId.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="imeiandroidId" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/apache/tomcat/embed/tomcat-embed-logging-juli/8.0.33/tomcat-embed-logging-juli-8.0.33.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/apache/tomcat/embed/tomcat-embed-core/8.0.33/tomcat-embed-core-8.0.33.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/com/fasterxml/jackson/core/jackson-core/2.6.6/jackson-core-2.6.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/apache/tomcat/tomcat-jdbc/8.0.33/tomcat-jdbc-8.0.33.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/springframework/spring-aop/4.2.6.RELEASE/spring-aop-4.2.6.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/springframework/spring-context/4.2.6.RELEASE/spring-context-4.2.6.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/jline/jline/0.9.94/jline-0.9.94.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/apache/tomcat/embed/tomcat-embed-el/8.0.33/tomcat-embed-el-8.0.33.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/junit/junit/4.12/junit-4.12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/com/alibaba/fastjson/1.2.44/fastjson-1.2.44.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/projectlombok/lombok/1.16.22/lombok-1.16.22.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/springframework/boot/spring-boot-starter/1.3.5.RELEASE/spring-boot-starter-1.3.5.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/scala-lang/scala-library/2.10.5/scala-library-2.10.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/yaml/snakeyaml/1.16/snakeyaml-1.16.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/com/101tec/zkclient/0.7/zkclient-0.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/com/fasterxml/classmate/1.1.0/classmate-1.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/springframework/spring-jdbc/4.2.6.RELEASE/spring-jdbc-4.2.6.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/springframework/boot/spring-boot-starter-web/1.3.5.RELEASE/spring-boot-starter-web-1.3.5.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.0.33/tomcat-embed-websocket-8.0.33.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/springframework/boot/spring-boot-starter-tomcat/1.3.5.RELEASE/spring-boot-starter-tomcat-1.3.5.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/net/jpountz/lz4/lz4/1.2.0/lz4-1.2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/com/fasterxml/jackson/core/jackson-databind/2.6.6/jackson-databind-2.6.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/apache/tomcat/tomcat-juli/8.0.33/tomcat-juli-8.0.33.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/springframework/spring-webmvc/4.2.6.RELEASE/spring-webmvc-4.2.6.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/ch/qos/logback/logback-core/1.1.7/logback-core-1.1.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/slf4j/slf4j-log4j12/1.7.21/slf4j-log4j12-1.7.21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/ch/qos/logback/logback-classic/1.1.7/logback-classic-1.1.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/json/json/20140107/json-20140107.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/com/fasterxml/jackson/core/jackson-annotations/2.6.6/jackson-annotations-2.6.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/springframework/boot/spring-boot-starter-logging/1.3.5.RELEASE/spring-boot-starter-logging-1.3.5.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/springframework/boot/spring-boot-starter-jdbc/1.3.5.RELEASE/spring-boot-starter-jdbc-1.3.5.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/slf4j/jul-to-slf4j/1.7.21/jul-to-slf4j-1.7.21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/springframework/spring-web/4.2.6.RELEASE/spring-web-4.2.6.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/springframework/boot/spring-boot-devtools/1.3.5.RELEASE/spring-boot-devtools-1.3.5.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/mybatis/spring/boot/mybatis-spring-boot-starter/1.1.1/mybatis-spring-boot-starter-1.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/springframework/boot/spring-boot-starter-aop/1.3.5.RELEASE/spring-boot-starter-aop-1.3.5.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/slf4j/log4j-over-slf4j/1.7.21/log4j-over-slf4j-1.7.21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/springframework/boot/spring-boot-starter-validation/1.3.5.RELEASE/spring-boot-starter-validation-1.3.5.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.1.1/mybatis-spring-boot-autoconfigure-1.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/springframework/spring-expression/4.2.6.RELEASE/spring-expression-4.2.6.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/mybatis/mybatis/3.4.0/mybatis-3.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/apache/kafka/kafka-clients/0.9.0.0/kafka-clients-0.9.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/springframework/boot/spring-boot/1.3.5.RELEASE/spring-boot-1.3.5.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/springframework/boot/spring-boot-autoconfigure/1.3.5.RELEASE/spring-boot-autoconfigure-1.3.5.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/springframework/spring-tx/4.2.6.RELEASE/spring-tx-4.2.6.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/springframework/boot/spring-boot-configuration-processor/1.3.5.RELEASE/spring-boot-configuration-processor-1.3.5.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/springframework/spring-core/4.2.6.RELEASE/spring-core-4.2.6.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/aspectj/aspectjweaver/1.8.9/aspectjweaver-1.8.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/net/sf/jopt-simple/jopt-simple/3.2/jopt-simple-3.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/apache/kafka/kafka_2.10/0.9.0.0/kafka_2.10-0.9.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/xerial/snappy/snappy-java/1.1.1.7/snappy-java-1.1.1.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/springframework/spring-beans/4.2.6.RELEASE/spring-beans-4.2.6.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="G:/GTJA/repository/repository/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
