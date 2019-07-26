@@ -3,6 +3,7 @@ package com.gtja.ydpt.imei.androidId.controller;
 import com.alibaba.fastjson.JSONObject;
 import com.gtja.ydpt.imei.androidId.kafka.producer.StockMessageProducer;
 import com.gtja.ydpt.imei.androidId.model.Collect;
+import com.gtja.ydpt.imei.androidId.service.CollectService;
 import com.gtja.ydpt.imei.androidId.util.imeiUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

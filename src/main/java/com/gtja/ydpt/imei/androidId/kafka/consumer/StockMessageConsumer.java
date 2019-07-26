@@ -1,5 +1,6 @@
 package com.gtja.ydpt.imei.androidId.kafka.consumer;
 
+import com.gtja.ydpt.imei.androidId.service.CollectService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,9 +16,12 @@ import kafka.consumer.KafkaStream;
 @Component
 public class StockMessageConsumer extends AbstractKafkaConsumer {
 	private static Logger logger = LoggerFactory.getLogger(StockMessageConsumer.class);
-	
+
 	@Autowired
-	private StockMessageConsumerConfig stockMessageConsumerConfig;
+	StockMessageConsumerConfig stockMessageConsumerConfig;
+	@Autowired
+	CollectService collectService;
+
 //	@Autowired
 //	private NewStockDetailsService newStockDetailsService;
 
@@ -33,6 +37,9 @@ public class StockMessageConsumer extends AbstractKafkaConsumer {
 
 				logger.info(stockDetail);
 				//逻辑业务
+				System.out.println("doBusiness before");
+				collectService.addCollect(stockDetail);
+				System.out.println("doBusiness after");
 				//newStockDetailsService.insertToBackup(stockDetail);
 			} catch (Exception e) {
 				logger.error("接收kafka信息入库失败, msg={}, cause={}, stack={}",

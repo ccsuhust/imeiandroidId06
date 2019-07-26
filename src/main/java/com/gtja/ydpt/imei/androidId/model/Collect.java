@@ -1,8 +1,13 @@
 package com.gtja.ydpt.imei.androidId.model;
 
+import org.springframework.stereotype.Repository;
+
+import java.util.Date;
+
 /**
  * Created by nowcoder on 2016/6/26.
  */
+@Repository
 public class Collect {
     private int id;
     private String imei;
@@ -10,8 +15,8 @@ public class Collect {
     private String deviceInfo;
     private String androidSystemVersion;
     private String jhVersion;
-    private String createTime;
-    private String updateTime;
+    private Date createTime;
+    private Date updateTime;
 
 
     public Collect() {
@@ -66,19 +71,20 @@ public class Collect {
         this.jhVersion = jhVersion;
     }
 
-    public String getCreateTime() {
+
+    public Date getCreateTime() {
         return createTime;
     }
 
-    public void setCreateTime(String createTime) {
+    public void setCreateTime(Date createTime) {
         this.createTime = createTime;
     }
 
-    public String getUpdateTime() {
+    public Date getUpdateTime() {
         return updateTime;
     }
 
-    public void setUpdateTime(String updateTime) {
+    public void setUpdateTime(Date updateTime) {
         this.updateTime = updateTime;
     }
 
