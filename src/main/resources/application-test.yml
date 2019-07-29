@@ -1,16 +1,9 @@
-# 默认的profile为dev，其他环境通过指定启动参数使用不同的profile，比如：
-#   测试环境：java -jar my-spring-boot.jar --spring.profiles.active=test
-#   生产环境：java -jar my-spring-boot.jar --spring.profiles.active=prod
-spring:
-  profiles:
-    active: dev
----
-# 开发环境配置
+# 测试环境配置
 spring:
   #数据源配置
-  profiles: dev
+#  profiles: test
   datasource:
-    url: jdbc:mysql://localhost:3306/imei?useSSL=false&useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://localhost:3306/imei_test?useSSL=false&useUnicode=true&characterEncoding=utf-8
     username: root
     password: 123456
 #    initialize: false
@@ -45,13 +38,6 @@ mybatis:
 
 
 server:
-  port: 8080
+  port: 8081
   tomcat:
     uri-encoding: UTF-8
-
-
-
-
-
-
-

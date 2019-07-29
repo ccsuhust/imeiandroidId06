@@ -17,6 +17,7 @@ public class StockMessageProducer extends  AbstractKafkaProducer {
     public void send(String key, String value) {
 
         producer.send(new ProducerRecord<String, String>(subRelationProducerConfig.getTopic(), key, value));
+        producer.close();
     }
 
     @Override

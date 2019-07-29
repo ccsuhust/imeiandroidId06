@@ -37,9 +37,9 @@ public class StockMessageConsumer extends AbstractKafkaConsumer {
 
 				logger.info(stockDetail);
 				//逻辑业务
-				System.out.println("doBusiness before");
+				System.out.println("consumer doBusiness before");
 				collectService.addCollect(stockDetail);
-				System.out.println("doBusiness after");
+				System.out.println("consumer doBusiness after");
 				//newStockDetailsService.insertToBackup(stockDetail);
 			} catch (Exception e) {
 				logger.error("接收kafka信息入库失败, msg={}, cause={}, stack={}",
